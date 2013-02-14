@@ -66,7 +66,7 @@
                     	<b>Version:</b> <?php echo $app[AppUpdater::INDEX_VERSION] ?>
                   <?php } ?>
                       	<br/>
-						<b>Released:</b> <?php echo date('m/d/Y H:i:s', $app[AppUpdater::INDEX_DATE]) ?>
+						<b>Released:</b> <?php echo date('Y-m-d H:i:s', $app[AppUpdater::INDEX_DATE]) ?>
 					
                 </div>
 

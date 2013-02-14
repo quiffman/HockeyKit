@@ -230,7 +230,7 @@ class AppUpdater
             $device,
             $osname.' '.$osversion,
             $appversion,
-            date('m/d/Y H:i:s'),
+            date('Y-m-d H:i:s'),
             $language,
             $firststartdate,
             $usagetime);

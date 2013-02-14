@@ -98,7 +98,7 @@
                           if ($app[AppUpdater::INDEX_APPSIZE]) {
                               echo "<b>Size:</b> " . round($app[AppUpdater::INDEX_APPSIZE] / 1024 / 1024, 1) . " MB<br/>";
                           }
-                          echo "<b>Released:</b> " . date('m/d/Y H:i:s', $app[AppUpdater::INDEX_DATE]);
+                          echo "<b>Released:</b> " . date('Y-m-d H:i:s', $app[AppUpdater::INDEX_DATE]);
                     ?>
                         </p>
                         <a class="button" href="<?php echo $b . 'api/2/apps/' . $app[AppUpdater::INDEX_DIR] ?>?format=apk">Install Application</a>
@@ -194,7 +194,7 @@
                           if ($app[AppUpdater::INDEX_APPSIZE]) {
                               echo "<b>Size:</b> " . round($app[AppUpdater::INDEX_APPSIZE] / 1024 / 1024, 1) . " MB<br/>";
                           }
-                          echo "<b>Released:</b> " . date('m/d/Y H:i:s', $app[AppUpdater::INDEX_DATE]);
+                          echo "<b>Released:</b> " . date('Y-m-d H:i:s', $app[AppUpdater::INDEX_DATE]);
                     ?>
                         </p>
 	                    <div style='clear:both;'></div>
@@ -250,7 +250,7 @@
                       if ($app[AppUpdater::INDEX_APPSIZE]) {
                           echo "<b>Size:</b> " . round($app[AppUpdater::INDEX_APPSIZE] / 1024 / 1024, 1) . " MB<br/>";
                       }
-                      echo "<b>Released:</b> " . date('m/d/Y H:i:s', $app[AppUpdater::INDEX_DATE]);
+                      echo "<b>Released:</b> " . date('Y-m-d H:i:s', $app[AppUpdater::INDEX_DATE]);
                     ?>
                         </p>
 
@@ -315,7 +315,7 @@
                         if ($app[AppUpdater::INDEX_APPSIZE]) {
                             echo "<b>Size:</b> " . round($app[AppUpdater::INDEX_APPSIZE] / 1024 / 1024, 1) . " MB<br/>";
                         }
-                        echo "<b>Released:</b> " . date('m/d/Y H:i:s', $app[AppUpdater::INDEX_DATE]);
+                        echo "<b>Released:</b> " . date('Y-m-d H:i:s', $app[AppUpdater::INDEX_DATE]);
                       ?>
                         </p>
 
